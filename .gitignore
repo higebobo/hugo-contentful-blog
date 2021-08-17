@@ -1,0 +1,7 @@
+*~
+*.bak
+*.orig
+.env
+public
+resources
+node_modules

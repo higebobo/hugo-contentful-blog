@@ -1,0 +1,3 @@
+[submodule "themes/blonde"]
+	path = themes/blonde
+	url = https://github.com/opera7133/Blonde.git
