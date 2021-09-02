@@ -1,5 +1,5 @@
 baseURL = "https://example.com"
-title = "Blonde"
+title = "Hugo Contentful Blog"
 author = "wamo"
 languageCode = "en"
 DefaultContentLanguage = "ja"
@@ -9,7 +9,8 @@ theme = "blonde"
 enableRobotsTXT = true
 
 # Please enable this feature if the site is available in Japanese, Chinese or Korean.
-#hasCJKLanguage = true
+hasCJKLanguage = true
+summaryLength = 60
 
 # If you're using Google Analytics, you can enable this feature.
 #googleAnalytics = "G-1234567890"
@@ -75,11 +76,31 @@ darkmode = "light"
     url = "/about/"
     weight = 2
 
-  [[menu.main]]
-    identifier = "contact"
-    name = "Contact"
-    url = "/contact/"
-    weight = 3
+#  [[menu.main]]
+#    identifier = "contact"
+#    name = "Contact"
+#    url = "/contact/"
+#    weight = 3
+
+
+[Languages]
+
+  [Languages.ja]
+    LanguageCode = "ja"
+    LanguageName = "日本語"
+
+    [[Languages.ja.menu.main]]
+      name = "ホーム"
+      identifier = "home"
+      url = "/"
+      weight = 1
+
+    [[Languages.ja.menu.main]]
+      name = "このサイトについて"
+      identifier = "about"
+      url = "/about/"
+      weight  = 2
+
 
 [taxonomies]
 category = "categories"

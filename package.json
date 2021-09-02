@@ -1,5 +1,9 @@
 {
     "name": "Blonde",
+    "scripts": {
+        "dev": "contentful-hugo --preview && hugo server",
+        "build": "contentful-hugo && hugo --minify"
+    },
     "version": "0.0.1",
     "description": "Blonde, A simple theme using Tailwind CSS.",
     "main": "index.js",
@@ -20,5 +24,8 @@
         "> 1%",
         "maintained node versions",
         "not dead"
-    ]
+    ],
+    "dependencies": {
+        "contentful-hugo": "^1.18.2"
+    }
 }
