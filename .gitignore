@@ -5,6 +5,9 @@
 public
 resources
 node_modules
+contentful-hugo.config.js
+hugo_stats.json
 content/categories
 content/post
 content/tags
+content/archives

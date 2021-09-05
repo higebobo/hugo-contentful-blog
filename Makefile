@@ -27,7 +27,10 @@ serve-without-draft: ## Run server without draft posts
 	@hugo server --watch
 
 build: clean ## Build static html
-	@hugo
+	@npm run build
+
+build-only: clean ## Build static html
+	@hugox
 
 deploy: build ## Deploy on Github Pages
 	@git add .
