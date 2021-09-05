@@ -72,15 +72,14 @@ Add scripts in package.json
         "dev": "contentful-hugo --preview && hugo server",
         "build": "contentful-hugo && hugo --minify"
     },
-    ...
 ```
 
 ## Customize
 
-You need customize setting files as needed.
+You need customize setting files shown below.
 
 * .env
     * see the [.env.sample](./.env.sample)
 * config.toml
 * contentful-hugo.config.js
-    * see the [.contentful-hugo.config.js.sample](./.contentful-hugo.config.js.sample)
+    * see the [contentful-hugo.config.js.sample](./contentful-hugo.config.js.sample)
