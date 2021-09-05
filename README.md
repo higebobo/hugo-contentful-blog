@@ -83,3 +83,17 @@ You need customize setting files shown below.
 * config.toml
 * contentful-hugo.config.js
     * see the [contentful-hugo.config.js.sample](./contentful-hugo.config.js.sample)
+
+## Run
+
+Run server
+
+```shell
+npm run dev
+```
+
+Build static files
+
+```shell
+npm run build
+```
