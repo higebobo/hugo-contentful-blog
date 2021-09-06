@@ -74,9 +74,35 @@ Add scripts in package.json
     },
 ```
 
+### Contentful models
+
+Create contentful models as you like.
+In my case, shown below (**id is important rather than name**)
+
+#### Blog post
+
+* name: HugoContentfulPost
+* id: hugoContentfulPost
+
+![models](./screenshots/01.png)
+
+#### Blog categor
+
+* name: HugoContentfulCategory
+* id: hugoContentfulCategory
+
+![models](./screenshots/02.png)
+
+#### Blog tag
+
+* name: HugoContentfulTag
+* id: hugoContentfulTag
+
+![models](./screenshots/02.png)
+
 ## Customize
 
-You need customize setting files shown below.
+You need customize setting files.
 
 * .env
     * see the [.env.sample](./.env.sample)
