@@ -1,5 +1,4 @@
-#baseURL = "https://higebobo.github.io/hugo-contentful-blog/"
-baseURL = ""
+baseURL = "https://higebobo.github.io/hugo-contentful-blog/"
 title = "Hugo Contentful Blog"
 author = "wamo"
 languageCode = "en"
@@ -8,7 +7,6 @@ enableInlineShortcodes = true
 themesDir = "./themes"
 theme = "blonde"
 enableRobotsTXT = true
-relativeURLs = true
 
 # Please enable this feature if the site is available in Japanese, Chinese or Korean.
 hasCJKLanguage = true
