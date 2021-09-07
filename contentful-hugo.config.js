@@ -1,16 +1,5 @@
 // contentful-hugo.config.js
 module.exports = {
-    contentful: {
-        // defaults to CONTENTFUL_SPACE env variable
-        space: 'space-id',
-        // defaults to CONTENTFUL_TOKEN env variable
-        token: 'content-deliver-token',
-        // defaults to CONTENTFUL_PREVIEW_TOKEN env variable
-        previewToken: 'content-preview-token',
-        // defaults to "master"
-        environment: 'master',
-    },
-
     repeatableTypes: [
         {
             id: 'hugoContentfulPost',             // (1) model id for blog post
