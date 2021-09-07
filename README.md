@@ -100,6 +100,10 @@ In my case, shown below (**id is important rather than name**)
 
 ![models](./screenshots/02.png)
 
+### Github Actions and Github Pages
+
+Set `.github/workflows/<youractions>.yaml` and environment variables for Contentful in `Settings`>`Secrets`
+
 ## Customize
 
 You need customize setting files.
@@ -107,7 +111,6 @@ You need customize setting files.
 * .env
     * see the [.env.sample](./.env.sample)
 * config.toml
-    * baseURL et al
 * contentful-hugo.config.js
     * see the [contentful-hugo.config.js.sample](./contentful-hugo.config.js.sample)
 
