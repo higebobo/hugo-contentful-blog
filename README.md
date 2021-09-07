@@ -107,6 +107,7 @@ You need customize setting files.
 * .env
     * see the [.env.sample](./.env.sample)
 * config.toml
+    * baseURL et al
 * contentful-hugo.config.js
     * see the [contentful-hugo.config.js.sample](./contentful-hugo.config.js.sample)
 
