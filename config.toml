@@ -1,4 +1,4 @@
-baseURL = "https://example.com"
+baseURL = ""
 title = "Hugo Contentful Blog"
 author = "wamo"
 languageCode = "en"
