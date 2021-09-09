@@ -1,6 +1,5 @@
 ### Update
 post https://api.github.com/repos/{{$dotenv GITHUB_ACCOUNT}}/{{$dotenv GITHUB_REPO}}/dispatches
-#post https://api.github.com/repos/toyoakekaki/hugo-future-imperfect-slim-contentful/dispatches
 Authorization: token {{$dotenv GITHUB_TOKEN}}
 Accept: application/vnd.github.everest-preview+json
 
