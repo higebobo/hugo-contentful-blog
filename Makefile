@@ -42,14 +42,21 @@ deploy: build ## Deploy on Github Pages
 	@git push
 
 github-api: ## Run github api
-	curl -X POST \
+	@curl -X POST \
+	-H "Accept: application/vnd.github.everest-preview+json" \
+	-H "Authorization: token ${GITHUB_TOKEN}" \
+	-d '{"event_type": "Wehook test"}' \
+	https://api.github.com/repos/${GITHUB_ACCOUNT}/${GITHUB_REPO}/dispatches
+
+github-api-with-header: ## Run github api with header
+	@curl -X POST -i \
 	-H "Accept: application/vnd.github.everest-preview+json" \
 	-H "Authorization: token ${GITHUB_TOKEN}" \
 	-d '{"event_type": "Wehook test"}' \
 	https://api.github.com/repos/${GITHUB_ACCOUNT}/${GITHUB_REPO}/dispatches
 
 contentful-webhook: ## Run contentful webhook
-	curl "https://cdn.contentful.com/spaces/${CONTENTFUL_SPACE}/entries?order=-sys.createdAt&content_type=${CONTENTFUL_CONTENT_TYPE}&access_token=${CONTENTFUL_TOKEN}"
+	@curl "https://cdn.contentful.com/spaces/${CONTENTFUL_SPACE}/entries?order=-sys.createdAt&content_type=${CONTENTFUL_CONTENT_TYPE}&access_token=${CONTENTFUL_TOKEN}"
 
 
 help: ## Print this help
