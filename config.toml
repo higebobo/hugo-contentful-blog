@@ -1,6 +1,6 @@
 baseURL = "https://higebobo.github.io/hugo-contentful-blog/"
 title = "Hugo Contentful Blog"
-author = "wamo"
+author = "higebobo"
 languageCode = "en"
 DefaultContentLanguage = "ja"
 enableInlineShortcodes = true
