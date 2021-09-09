@@ -58,7 +58,6 @@ github-api-with-header: ## Run github api with header
 contentful-webhook: ## Run contentful webhook
 	@curl "https://cdn.contentful.com/spaces/${CONTENTFUL_SPACE}/entries?order=-sys.createdAt&content_type=${CONTENTFUL_CONTENT_TYPE}&access_token=${CONTENTFUL_TOKEN}"
 
-
 help: ## Print this help
 	@echo 'Usage: make [target]'
 	@echo ''

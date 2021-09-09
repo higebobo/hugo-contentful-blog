@@ -92,7 +92,7 @@ In my case, shown below (**id is important rather than name**)
 
 ![models](./images/screenshots/01.png)
 
-#### Blog categor
+#### Blog category
 
 * name: HugoContentfulCategory
 * id: hugoContentfulCategory
@@ -116,9 +116,8 @@ You need customize setting files.
 
 * .env
     * see the [.env.sample](./.env.sample)
-* config.toml
-* contentful-hugo.config.js
-    * see the [contentful-hugo.config.js.sample](./contentful-hugo.config.js.sample)
+* [config.toml](./config.toml)
+* [contentful-hugo.config.js](./contentful-hugo.config.js)
 
 ## Run
 
@@ -136,5 +135,7 @@ npm run build
 
 ## Automatically build and publish
 
-If you want automatically build and publish the site contents.  
-See the instruction [Running static site builds with GitHub Actions and Contentful \| Contentful](https://www.contentful.com/blog/2020/06/01/running-static-site-builds-with-github-actions-and-contentful/)
+If you want automatically build and publish the site contents, 
+see this instruction 
+
+[Running static site builds with GitHub Actions and Contentful \| Contentful](https://www.contentful.com/blog/2020/06/01/running-static-site-builds-with-github-actions-and-contentful/)
