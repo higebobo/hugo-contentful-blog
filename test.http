@@ -1,0 +1,12 @@
+### Update
+post https://api.github.com/repos/{{$dotenv GITHUB_ACCOUNT}}/{{$dotenv GITHUB_REPO}}/dispatches
+#post https://api.github.com/repos/toyoakekaki/hugo-future-imperfect-slim-contentful/dispatches
+Authorization: token {{$dotenv GITHUB_TOKEN}}
+Accept: application/vnd.github.everest-preview+json
+
+{
+  "event_type": "webhook test by vs code"
+}
+
+### Contentful
+https://cdn.contentful.com/spaces/{{$dotenv CONTENTFUL_SPACE}}/entries?order=-sys.createdAt&content_type={{$dotenv CONTENTFUL_CONTENT_TYPE}}&access_token={{$dotenv CONTENTFUL_TOKEN}}

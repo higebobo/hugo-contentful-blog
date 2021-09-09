@@ -2,6 +2,12 @@
 
 Blog sample with Hugo and Contentful by [ModiiMedia/contentful-hugo](https://github.com/ModiiMedia/contentful-hugo)
 
+[Sample Site](https://higebobo.github.io/hugo-contentful-blog/)
+
+## System configuration and work flow
+
+![diagram](./images/diagram/work-flow.svg)
+
 ## Set up
 
 * requirements
@@ -84,21 +90,21 @@ In my case, shown below (**id is important rather than name**)
 * name: HugoContentfulPost
 * id: hugoContentfulPost
 
-![models](./screenshots/01.png)
+![models](./images/screenshots/01.png)
 
 #### Blog categor
 
 * name: HugoContentfulCategory
 * id: hugoContentfulCategory
 
-![models](./screenshots/02.png)
+![models](./images/screenshots/02.png)
 
 #### Blog tag
 
 * name: HugoContentfulTag
 * id: hugoContentfulTag
 
-![models](./screenshots/02.png)
+![models](./images/screenshots/02.png)
 
 ### Github Actions and Github Pages
 
@@ -127,3 +133,8 @@ Build static files
 ```shell
 npm run build
 ```
+
+## Automatically build and publish
+
+If you want automatically build and publish the site contents.  
+See the instruction [Running static site builds with GitHub Actions and Contentful \| Contentful](https://www.contentful.com/blog/2020/06/01/running-static-site-builds-with-github-actions-and-contentful/)
