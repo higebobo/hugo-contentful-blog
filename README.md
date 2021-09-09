@@ -74,7 +74,7 @@ Add scripts in package.json
 
 ```json
 {
-    "name": "Hugo contenful",
+    "name": "Hugo-Contenful",
     "scripts": {
         "dev": "contentful-hugo --preview && hugo server",
         "build": "contentful-hugo && hugo --minify"

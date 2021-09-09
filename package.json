@@ -1,5 +1,5 @@
 {
-    "name": "Hugo Contenful",
+    "name": "Hugo-Contenful",
     "scripts": {
         "dev": "contentful-hugo --preview && hugo server",
         "build": "contentful-hugo && hugo --minify"
