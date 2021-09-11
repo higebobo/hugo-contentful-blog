@@ -23,6 +23,12 @@ Clone this repository including submodules
 git clone --recursive https://github.com/higebobo/hugo-contentful-blog
 ```
 
+Change site directory
+
+```shell
+cd hugo-contentful-blog
+```
+
 Install the package for Node.js(postcss, contentful-hugo)
 
 ```shell
@@ -37,10 +43,15 @@ Create a new site
 hugo new site hugo-contentful-blog
 ```
 
-Create a git repository
+Change site directory
 
 ```shell
 cd hugo-contentful-blog
+```
+
+Create a git repository
+
+```shell
 git init
 echo '*~' >> .gitignore
 echo '*.bak' >> .gitignore
