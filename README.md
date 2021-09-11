@@ -132,6 +132,8 @@ You need customize setting files.
     * copy from the [.env.sample](./.env.sample) and edit
 * [config.toml](./config.toml)
 * [contentful-hugo.config.js](./contentful-hugo.config.js)
+* [gh-pages.yaml](.github/workflows/gh-pages.yaml)
+    * modify baseUrl option
 
 ## Run
 

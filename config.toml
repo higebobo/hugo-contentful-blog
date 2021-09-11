@@ -1,4 +1,5 @@
-baseURL = "https://higebobo.github.io/hugo-contentful-blog/"
+#baseURL = "https://higebobo.github.io/hugo-contentful-blog/"
+baseURL = ""
 title = "Hugo Contentful Blog"
 author = "higebobo"
 languageCode = "en"
