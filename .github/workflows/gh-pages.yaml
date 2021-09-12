@@ -31,11 +31,11 @@ jobs:
           extended: true
 
       - name: Build
-        run: ./node_modules/.bin/contentful-hugo && hugo --minify --baseUrl="https://higebobo.github.io/hugo-contentful-blog/"
+        run: ./node_modules/.bin/contentful-hugo && hugo --minify --baseUrl="${BASE_URL}"
         env:
           CONTENTFUL_SPACE: ${{ secrets.CONTENTFUL_SPACE }}
           CONTENTFUL_TOKEN: ${{ secrets.CONTENTFUL_TOKEN }}
-
+          BASE_URL:  ${{ secrets.BASE_URL }}
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         if: ${{ github.ref == 'refs/heads/main' }}
