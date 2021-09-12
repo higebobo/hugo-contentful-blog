@@ -23,7 +23,7 @@ Clone this repository including submodules
 git clone --recursive https://github.com/higebobo/hugo-contentful-blog
 ```
 
-Change site directory
+Move to the site directory
 
 ```shell
 cd hugo-contentful-blog
@@ -43,7 +43,7 @@ Create a new site
 hugo new site hugo-contentful-blog
 ```
 
-Change site directory
+Move to the site directory
 
 ```shell
 cd hugo-contentful-blog
@@ -132,8 +132,12 @@ You need customize setting files.
     * copy from the [.env.sample](./.env.sample) and edit
 * [config.toml](./config.toml)
 * [contentful-hugo.config.js](./contentful-hugo.config.js)
-* [gh-pages.yaml](.github/workflows/gh-pages.yaml)
-    * modify baseUrl option
+
+Also, set the secrets to use Github Actioins
+
+* CONTENTFUL_SPACE: your contentful space id
+* CONTENTFUL_TOKEN: your contentful token
+* BASE_URL: base url of hugo to deploy (for example "https://foo.github.io/")
 
 ## Run
 
@@ -149,9 +153,9 @@ Build static files
 npm run build
 ```
 
-## Automatically build and publish
+## Build automatically and publishment
 
-If you want automatically build and publish the site contents, 
+If you want build automatically and publish the site contents, 
 see this instruction 
 
 [Running static site builds with GitHub Actions and Contentful \| Contentful](https://www.contentful.com/blog/2020/06/01/running-static-site-builds-with-github-actions-and-contentful/)
