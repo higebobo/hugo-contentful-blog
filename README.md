@@ -129,7 +129,7 @@ My settings is [here](./.github/workflows/gh-pages.yaml)
 You need customize setting files.
 
 * .env
-    * copy from the [.env.sample](./.env.sample) and edit
+    * copy from the [.env.sample](./.env.sample) and edit it
 * [config.toml](./config.toml)
 * [contentful-hugo.config.js](./contentful-hugo.config.js)
 
@@ -155,7 +155,7 @@ npm run build
 
 ## Build automatically and publishment
 
-If you want build automatically and publish the site contents, 
+If you want to build automatically and publish the site contents, 
 see this instruction 
 
 [Running static site builds with GitHub Actions and Contentful \| Contentful](https://www.contentful.com/blog/2020/06/01/running-static-site-builds-with-github-actions-and-contentful/)
